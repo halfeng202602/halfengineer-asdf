@@ -56,7 +56,7 @@ model: opus
 ## 参照すべきファイル
 - specs/{feature}/requirements.md（承認済み要件）
 - SPEC.md（ユースケース概要・対応機能の確認）
-- docs/steering/tech.md（技術スタック）
+- CLAUDE.md（技術スタック・開発方針）
 - docs/steering/structure.md（構成ルール）
 - 過去の specs/{other-feature}/design.md の「実装時補記」セクション（前回の教訓）
 - リサーチャーの調査レポート（あれば）

@@ -11,6 +11,11 @@ if ! echo "$COMMAND" | grep -qE 'git\s+commit'; then
   exit 0
 fi
 
+# chore/docs/refactor コミットはバグ記録不要（実装タスク以外）
+if echo "$COMMAND" | grep -qE '(chore|docs|refactor|style|ci|build)\s*(\(|:)'; then
+  exit 0
+fi
+
 PROJECT_DIR="${CLAUDE_PROJECT_DIR:-.}"
 BUGS_DIR="$PROJECT_DIR/bugs"
 

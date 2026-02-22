@@ -1,6 +1,6 @@
 # Specs ディレクトリルール
 
-このディレクトリはSDD（スペック駆動開発）の中核。
+このディレクトリはHE_ASDF（AI Spec-Driven Development Framework）の中核。
 
 ## 構成ルール
 - 機能ごとに `{feature-name}/` ディレクトリを作成する
